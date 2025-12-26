@@ -12,6 +12,11 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen relative overflow-hidden bg-[#FFFDE7]"> {/* Lighter yellow bg */}
       
+      {/* Attribution Banner */}
+      <div className="w-full bg-purple-100/80 text-purple-800 text-xs font-bold py-1 text-center backdrop-blur-sm relative z-50 border-b border-purple-200">
+        Made by Neha ❤️
+      </div>
+      
       {/* Dynamic Background */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-purple-300 rounded-full mix-blend-multiply filter blur-[100px] opacity-20 animate-blob"></div>
